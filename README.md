@@ -4,8 +4,9 @@
 
 | № | Раздел | Описание |
 | - | ------ | -------- |
-| 1 | [Databases-Info](PG-Databases-Info) | Информация о базах данных |
-| 2 | [Internals](PG-Internals) | Внутреннее устройство СУБД |
+| 1 | [PG-Server-Common-Info](PG-Server-Common-Info) | Cкрипты общего назначения для просмотра состояния и настроек сервера и др |
+| 2 | [Databases-Info](PG-Databases-Info) | Информация о базах данных |
+| 3 | [Internals](PG-Internals) | Внутреннее устройство СУБД |
 
 # Отказ от ответственности
 

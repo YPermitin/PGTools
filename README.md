@@ -10,6 +10,9 @@
 
 # Полезные ссылки
 
+* [Официальная документация](https://postgrespro.ru/docs/postgresql) - русский перевод документации по PostgreSQL от [Postgres Pro](https://postgrespro.ru/)
+* [Работа с PostgreSQL. Настройка и масштабирование](https://postgresql.leopard.in.ua/) - справочное пособие по настройке и масштабированию PostgreSQL от [le0pard](https://github.com/le0pard/).
+* [pgtune](https://pgtune.leopard.in.ua/#/) - инструмент для подбора отпимальных параметров СУБД под конкретные параметры инфраструктуры и особенностей клиентского приложения.
 * [ottertune](https://github.com/cmu-db/ottertune) - инструмент для автоматического поиска оптимальной конфигурации СУБД.
 
 # Отказ от ответственности

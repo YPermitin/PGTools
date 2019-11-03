@@ -6,7 +6,9 @@
 | - | ------ | -------- |
 | 1 | [Common-Info](PG-Common-Info) | Cкрипты общего назначения для просмотра состояния и настроек сервера и др |
 | 2 | [Databases-Info](PG-Databases-Info) | Информация о базах данных |
-| 3 | [Internals](PG-Internals) | Внутреннее устройство СУБД |
+| 3 | [PG-Diagnostics](PG-Diagnostics) | Диагностика работы PostgreSQL |
+| 4 | [Perfomance](PG-Perfomance) | Производительность и оптимизация запросов, настроек сервера и поиск узких мест |
+| 5 | [Internals](PG-Internals) | Внутреннее устройство СУБД |
 
 # Полезные ссылки
 

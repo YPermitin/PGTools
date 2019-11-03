@@ -1,0 +1,1 @@
+SHOW data_directory;

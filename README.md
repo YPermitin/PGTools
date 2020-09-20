@@ -22,6 +22,7 @@
 * [Набор скриптов для знакомства с PostgreSQL](https://infostart.ru/public/1148863/) - набор некоторых скриптов для знакомства с PostgreSQL.
 * [dba-tools](https://github.com/NikolayS/postgres_dba) - коллекция скриптов администратора СУБД, для работы в режиме `psql` - включая уникальные скрипты от DataEgret и Postgres-AI. Для 1С специалистов самым интересным будет `bloat_estimation` - то есть потенциальный расчет распухания, для планирования параметров `autovacuum`
 * [pg-center](https://github.com/lesovsky/pgcenter) - командный клиент для разбора проблем с сервером СУБД от `Алексея Лесовского` из команды `Data Egret`
+* [PG+1C+Linux Tellegram Channel](https://t.me/PostgreSQL_1C_Linux) - Телеграмм канал по использованию PostgreSQL и 1С. Участвую все вендоры и известные эксперты по производительности
 
 # Видео-каналы
 

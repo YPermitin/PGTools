@@ -9,7 +9,7 @@ dblist=`psql -d postgres -c "copy (select datname from pg_stat_database) to stdo
 for db in $dblist ; do
 
     # Игнорируем служебные базы данных
-    if [[ $db == template0 ]] ||  [[ $db == template1 ]] || [[ $db == postgres ]] || [[ $db == gpdb ]] ; then
+    if [[ $db == template0 ]] ||  [[ $db == template1 ]] || [[ $db == postgres ]] ; then
         continue
     fi
 

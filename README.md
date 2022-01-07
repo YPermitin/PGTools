@@ -15,6 +15,7 @@
 | 5 | [Perfomance](PG-Perfomance) | Производительность и оптимизация запросов, настроек сервера и поиск узких мест |
 | 6 | [Maintenance](PG-Maintenance) | Обслуживание баз данных и сервера |
 | 7 | [Internals](PG-Internals) | Внутреннее устройство СУБД |
+| 8 | [TimescaleDB](PG-TimescaleDB) | Хранение данных временных рядов с помощью расширения TimescaleDB для PostgreSQL |
 
 # Полезные ссылки
 

@@ -118,6 +118,7 @@ where extname = 'timescaledb'
 Для базы Zabbix есть смысл использовать TimescaleDB для следующих таблиц истории:
 
 * history (секции по 1 дню)
+* history_uint (секции по 1 дню)
 * history_log (секции по 1 дню)
 * history_str (секции по 1 дню)
 * history_text (секции по 1 дню)
@@ -195,6 +196,7 @@ SELECT create_hypertable('trends_new', 'clock', chunk_time_interval => 2592000);
 INSERT INTO trends_new SELECT * FROM trends;
 DROP TABLE IF EXISTS trends;
 ALTER TABLE IF EXISTS trends_new RENAME TO trends;
+CREATE UNIQUE INDEX trends_pkey ON public.trends USING btree (itemid, clock);
 -- При необходимости изменить владельца таблицы
 -- ALTER TABLE public.trends OWNER TO zabbix;
 
@@ -203,6 +205,7 @@ SELECT create_hypertable('trends_uint_new', 'clock', chunk_time_interval => 2592
 INSERT INTO trends_uint_new SELECT * FROM trends_uint;
 DROP TABLE IF EXISTS trends_uint;
 ALTER TABLE IF EXISTS trends_uint_new RENAME TO trends_uint;
+CREATE UNIQUE INDEX trends_uint_pkey ON public.trends_uint USING btree (itemid, clock);
 -- При необходимости изменить владельца таблицы
 -- ALTER TABLE public.trends_uint OWNER TO zabbix;
 ```

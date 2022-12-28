@@ -296,7 +296,7 @@ GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA pgagent TO pgagent;
 После этих настроек Вы можете проверить доступ для пользователя pgagent.
 
 ```bash
-psql -h localhost -d postgtes -U pgagent
+psql -h localhost -d postgres -U pgagent
 ```
 
 Если будут ошибки, то смотрим логи PostgreSQL.

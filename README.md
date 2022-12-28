@@ -17,6 +17,7 @@
 | 6 | [Maintenance](PG-Maintenance) | Обслуживание баз данных и сервера |
 | 7 | [Internals](PG-Internals) | Внутреннее устройство СУБД |
 | 8 | [TimescaleDB](PG-TimescaleDB) | Хранение данных временных рядов с помощью расширения TimescaleDB для PostgreSQL |
+| 9 | [PGAgent](PG-Agent) | Планировщик заданий для баз данных PostgreSQL с возможностью запуска пошаговых сценариев в формате SQL или bash с гибким расписанием |
 
 ## Полезные ссылки
 

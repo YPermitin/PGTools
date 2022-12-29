@@ -5,6 +5,7 @@
 Скрипты взяты отсюда:
 https://web.archive.org/web/20080603000756/http://pgsql.tapoueh.org/site/html/news/20080131.bloat.html
 https://stackoverflow.com/questions/67486465/understanding-a-table-bloat-query
+https://wiki.postgresql.org/wiki/Show_database_bloat
 */
 
 SELECT

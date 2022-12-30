@@ -1,5 +1,5 @@
 /*
-Информация о последних операциях VACUUM и AUTOCACUUM
+Информация о последних операциях VACUUM и AUTOVACUUM
 */
 
 SELECT 

@@ -18,7 +18,7 @@
 | [Завершение сессий](%D0%97%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%B5%D1%81%D1%81%D0%B8%D0%B9.sql) | Примеры завершения соединений базы по идентификатору или для определенной базы |
 | [Запрет и разрешение соединений с базой](%D0%97%D0%B0%D0%BF%D1%80%D0%B5%D1%82%20%D0%B8%20%D1%80%D0%B0%D0%B7%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%BE%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%81%20%D0%B1%D0%B0%D0%B7%D0%BE%D0%B9.sql) | Примеры скриптов для разрешения и блокировки соединения с базой данных (например, на период проведения регламентных работ) |
 
-## Материалы
+## МатериалыВместо заключения
 
 * [Routine Database Maintenance Tasks](https://www.postgresql.org/docs/current/maintenance.html) - общая информация и примеры о настройке типовых операций обслуживания ("очистка", освобождение неиспользуемого места, обновление статистики и др.)
 * [Maintaining PostgreSQL is More Than Just a Maintenance Plan](https://www.enterprisedb.com/blog/maintaining-postgresql-for-high-performance-what-is-wrong-or-right-what-consider) - обслуживание баз данных и некоторые нюансы.

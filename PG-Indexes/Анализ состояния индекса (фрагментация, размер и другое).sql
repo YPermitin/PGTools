@@ -8,9 +8,9 @@ select
     n.nspname,
     -- Таблица
     ti.relname as "TableName",
-	-- Имя индекса
-	i.indexrelid::regclass as "IndexName",
-	-- Фрагментация на уровне листьев
+    -- Имя индекса
+    i.indexrelid::regclass as "IndexName",
+    -- Фрагментация на уровне листьев
     s.leaf_fragmentation as "LeafFragmentation",
     -- Общий объём индекса в байтах
     s.index_size as "IndexSizeBytes",
@@ -28,8 +28,6 @@ select
     s.empty_pages,
     -- Количество удалённых страниц
     s.deleted_pages,
-    -- Средняя плотность страниц на уровне листьев
-    s.avg_leaf_density,
     -- Средняя плотность страниц на уровне листьев
     s.avg_leaf_density
 FROM pg_index AS i

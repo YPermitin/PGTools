@@ -22,3 +22,4 @@
 
 * [Routine Database Maintenance Tasks](https://www.postgresql.org/docs/current/maintenance.html) - общая информация и примеры о настройке типовых операций обслуживания ("очистка", освобождение неиспользуемого места, обновление статистики и др.)
 * [Maintaining PostgreSQL is More Than Just a Maintenance Plan](https://www.enterprisedb.com/blog/maintaining-postgresql-for-high-performance-what-is-wrong-or-right-what-consider) - обслуживание баз данных и некоторые нюансы.
+* [PostgreSQL VACUUM and ANALYZE Best Practice Tips](https://www.enterprisedb.com/blog/postgresql-vacuum-and-analyze-best-practice-tips) - полезные настройки автоочистки.
